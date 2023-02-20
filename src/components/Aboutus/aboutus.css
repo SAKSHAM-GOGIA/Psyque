@@ -1,0 +1,15 @@
+.about-us{
+    background-image: url("../Aboutus/about_us_bg.png");
+    background-image: no-repeat;
+    background-size: 100% 100%;
+}
+
+.about-us-text{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #000000;
+}

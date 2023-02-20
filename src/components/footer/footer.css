@@ -1,0 +1,8 @@
+footer{
+    background: linear-gradient(180deg, rgba(52, 160, 164, 0.8) 0%, rgba(52, 160, 164, 0) 100%);
+    border: 2px solid #184E77;
+    /* color: black; */
+}
+.line{
+    border-top: 2px solid black;
+}

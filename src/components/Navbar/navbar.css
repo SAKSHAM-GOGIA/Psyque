@@ -1,0 +1,13 @@
+.nav-link{
+    margin: 20px 16px;
+}
+
+.nav-link{
+    color: black!important;
+    font-weight: 500;
+}
+
+nav{
+    border-bottom-left-radius: 30px 15%;
+    border-bottom-right-radius:30px  15%;
+}
