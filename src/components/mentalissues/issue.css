@@ -1,0 +1,25 @@
+.rectangle {
+
+    width: 340px;
+    height: 67px;
+    left: 190px;
+    top: 798px;
+    background: #1A759F;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+.text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}

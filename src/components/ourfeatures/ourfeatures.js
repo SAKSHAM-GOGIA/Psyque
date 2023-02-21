@@ -5,7 +5,7 @@ export default function ourfeatures() {
     return (
         <>
             <div className="container" style={{ paddingTop: "132px" }}>
-                <h1 className='text-center heading-features' style={{ paddingBottom: "75px", fontSize: "50px" }}>
+                <h1 className='text-center heading-features' style={{ paddingBottom: "75px", fontSize: "50px", fontFamily: 'Playfair Display'}}>
                     OUR FEATURES
                 </h1>
                 <div className='row pb-4'>

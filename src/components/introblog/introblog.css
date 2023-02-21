@@ -1,0 +1,17 @@
+.heading {
+    margin-top: 100px;
+    color: #000000;
+    border-bottom: 3px solid #000000;
+}
+
+.card-blog{
+    background: #34A0A4;
+}
+
+.author{
+    font-style: italic;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #000000;
+}
