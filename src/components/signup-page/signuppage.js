@@ -6,21 +6,28 @@ export default function signuppage() {
     return (
         <>
             <div className='container'>
+
                 <div className="row pt-5">
                     <div className="col-md-6">
                         <h1 className='signup-text text-dark'>
                             WE STRIVE TO MAKE YOUR WAY OF LIFE EASIER.
                         </h1>
+                        <div className="row px-3">
+                            <div className="form-control form-outline my-2 signup-details">
+                                <input type="text" id="name" className="form-control" />
+                                <label className="form-label" for="name">Name</label>
+                            </div>
+                        </div>
                         <div className="row">
                             <div className="col-6">
-                                <div className="form-control form-outline my-3 signup-details">
+                                <div className="form-control form-outline my-1 signup-details">
                                     <input type="email" id="typeEmail" className="form-control" />
                                     <label className="form-label" for="typeEmail">Email</label>
                                 </div>
                             </div>
                             <div className="col-6">
-                                <div className="form-control form-outline my-3 signup-details">
-                                <input type="tel" id="typePhone" className="form-control" />
+                                <div className="form-control form-outline my-1 signup-details">
+                                    <input type="tel" id="typePhone" className="form-control" />
                                     <label className="form-label" for="typePhone">Phone Number</label>
                                 </div>
                             </div>
@@ -28,13 +35,13 @@ export default function signuppage() {
 
                         <div className="row">
                             <div className="col-6">
-                            <div className="form-control form-outline my-3 signup-details">
+                                <div className="form-control form-outline my-1 signup-details">
                                     <input type="password" id="typePassword" className="form-control" />
                                     <label className="form-label" for="typePassword">Password</label>
                                 </div>
                             </div>
                             <div className="col-6">
-                                <div className="form-control form-outline my-3 signup-details">
+                                <div className="form-control form-outline my-1 signup-details">
                                     <input type="password" id="typePassword" className="form-control" />
                                     <label className="form-label" for="typePassword">Confirm Password</label>
                                 </div>
@@ -42,7 +49,7 @@ export default function signuppage() {
                         </div>
 
 
-                        <div className='pt-5 pb-3 text-center'>
+                        <div className='py-3 text-center'>
                             <button className='sign-up-but w-100'>Sign Up</button>
                         </div>
                         <span> Already have an account? </span>

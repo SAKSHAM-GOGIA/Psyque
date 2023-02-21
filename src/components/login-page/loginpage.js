@@ -8,7 +8,7 @@ export default function loginpage() {
       <div className='container'>
         <div className="row pt-5">
           <div className="col-md-6">
-            <h1 className='login-text text-dark'>
+            <h1 className='login-text text-dark pb-4'>
               WE STRIVE TO MAKE YOUR WAY OF LIFE EASIER.
             </h1>
             <div className="form-control form-outline my-3 login-details">
