@@ -1,10 +1,12 @@
 import React from 'react'
 import "./footer.css"
+import { Link } from 'react-router-dom'
+import { HashLink as HLink } from 'react-router-hash-link';
 
 export default function footer() {
     return (
         // <!-- Footer -->
-        <footer className="text-center text-dark" style={{ fontSize: '16px' }}>
+        <footer className="text-center text-dark" style={{ fontSize: '16px' }} id="main-footer">
             {/* <!-- Section: Social media --> */}
             <section className="d-flex justify-content-center justify-content-lg-between p-4">
                 {/* <!-- Left --> */}
@@ -44,7 +46,9 @@ export default function footer() {
                         {/* <!-- Grid column --> */}
                         <div className="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
                             {/* <!-- Content --> */}
-                            <img src="footer logo.svg" alt="" />
+                            <Link to="/" >
+                                <img src="footer logo.svg" alt="" />
+                            </Link>
                         </div>
                         {/* <!-- Grid column --> */}
 
@@ -52,10 +56,10 @@ export default function footer() {
                         <div className="col-md-4 col-lg-2 col-xl-2 mx-auto mb-4">
                             {/* <!-- Links --> */}
                             <h6 className="text-uppercase fw-bold mb-4">
-                                Products
+                                Our Services
                             </h6>
                             <p>
-                                <a href="#!" className="text-reset">Blogs</a>
+                                <Link to="blogs" className="text-reset">Blogs</Link>
                             </p>
                             <p>
                                 <a href="#!" className="text-reset">Discussion Forums</a>
@@ -64,10 +68,10 @@ export default function footer() {
                                 <a href="#!" className="text-reset">Our Counselors</a>
                             </p>
                             <p>
-                                <a href="#!" className="text-reset">Surveys</a>
+                                <Link to="surveys" className="text-reset">Surveys</Link>
                             </p>
                             <p>
-                                <a href="#!" className="text-reset">About Us</a>
+                                <HLink to="/#about-us" className="text-reset">About Us</HLink>
                             </p>
                         </div>
                         {/* <!-- Grid column --> */}

@@ -1,0 +1,18 @@
+
+.form-question{
+    /* border-radius: 10%; */
+    border: 2px solid #1E6091;
+    padding-top: 30px;
+    color: #1E6091;
+    font-size: 20px;
+
+}
+
+.after-question-line{
+    border: 1px solid black;
+}
+
+.question-submit-btn{
+    padding: 16px 64px;
+    font-size: 20px;
+}

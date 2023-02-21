@@ -3,7 +3,7 @@ import "./aboutus.css"
 
 export default function Aboutus() {
     return (
-        <div className='about-us py-5 my-5'>
+        <div className='about-us py-5 my-5' id="about-us">
             <div className='container '>
                 <h2 className='text-center pb-5' style={{fontSize: "50px", color: "black"}}>
                     ABOUT US

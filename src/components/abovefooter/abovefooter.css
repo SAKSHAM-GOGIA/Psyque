@@ -1,0 +1,25 @@
+.abovefooter-card{
+    background: #1A759F;
+    border: 2px solid #184E77;
+    border-radius: 10px;
+    height: 110px;
+    position: relative;
+    z-index: 1;
+    bottom: -20px;
+}
+
+.abovefooter-text{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+.inside-abovefooter{
+    background: #FFFFFF;
+    border-radius: 10px;
+    color: black;
+    font-size: 30px;
+    padding: 8px 64px;
+}

@@ -1,5 +1,7 @@
 import React from 'react'
 import './loginpage.css'
+import { Link } from "react-router-dom";
+
 export default function loginpage() {
   return (
     <>
@@ -36,14 +38,14 @@ export default function loginpage() {
               <button className='sign-in-but w-100'>Sign In</button>
             </div>
             <span> Don't have an account? </span>
-            <span> <a href='#'>Sign Up</a></span>
+            <span> <Link to="/signup">Sign Up</Link></span>
 
             <div className='text-center text-dark py-4' style={{ fontSize: "larger" }}> Sign in with </div>
 
-            <div className='d-flex flex-row justify-content-center'>
+            <div className='d-flex flex-row justify-content-evenly'>
               <a href='#'><i className="fab fa-google me-4 sign-icons" /></a>
-              <a href='#'><i className="fab fa-google me-4 sign-icons" /></a>
-              <a href='#'><i className="fab fa-google me-4 sign-icons" /></a>
+              <a href='#'><i className="fab fa-facebook me-4 sign-icons" /></a>
+              <a href='#'><i className="fas fa-envelope me-4 sign-icons" /></a>
             </div>
 
           </div>
