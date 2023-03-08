@@ -1,0 +1,45 @@
+.heading {
+    margin-top: 100px;
+    color: #000000;
+    border-bottom: 3px solid #000000;
+}
+.card-forum{
+
+background: #FFFFFF;
+box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+
+}
+.topic{
+    
+    background: #B5E48C;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+.upvote-btn{
+    background: #B5E48C;
+border-radius: 15px;
+}
+
+.comments-btn{
+    
+background: #000000;
+border-radius: 15px;
+
+}
+.endline-forum {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+}
+.right-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-forum{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+

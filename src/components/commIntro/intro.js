@@ -4,7 +4,7 @@ export default function intro() {
   return (
     <>
         <div className='container'>
-            <div className=".shadow-2-strong d-flex justify-content-center pt-4">
+            <div className=".shadow-2-strong d-flex justify-content-center pt-4 my-4">
                 <img src="comm1.svg" alt="" />
             </div>
             <div className='welcome-text'>
